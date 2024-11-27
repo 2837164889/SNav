@@ -63,7 +63,6 @@ const imgLoadComplete = () => {
     () => {
       status.setImgLoadStatus(true);
     },
-    Math.floor(Math.random() * (600 - 300 + 1)) + 300,
   );
 };
 
